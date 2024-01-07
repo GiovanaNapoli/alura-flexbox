@@ -77,4 +77,21 @@
   .rodape__container {
     justify-content: space-between;
   }
+
+  .menu__container {
+    position: fixed;
+    left: 0px;
+    top: 80px;
+    height: auto;
+    width: 74px;
+  }
+
+  .menu__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 33px;
+    padding-top: 15px;
+  }
+
 }
